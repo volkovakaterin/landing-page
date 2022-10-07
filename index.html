@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevelUp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="landing">
+        <div class="promo">
+            <video class="promo__video" muted autoplay loop>
+                <source src="video/video.mp4" type="video/mp4">
+                <source src="video/video.webm" type="video/webm">
+            </video>
+            <div class="promo__container">
+                <div class="promo__wrapper">
+                    <h1 class="promo__title">LevelUp</h1>
+                    <div class="promo__content">
+                        <div class="promo__image"><img src="img/prod.png"></div>
+                        <div class="promo__description">
+                            <ul class="promo__feature_list">
+                                <li class="promo__feature_item">Научно-обоснованное производство</li>
+                                <li class="promo__feature_item">Ингредиенты из надежных источников</li>
+                                <li class="promo__feature_item">Отказ от использования искусственных ингредиентов и
+                                    наполнителей
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="btn_order scroll_order">Заказать</button>
+                </div>
+            </div>
+        </div>
+        <div class="consist">
+            <div class="consist__container">
+                <ul class="consist__list">
+                    <li class="consist__item"><img src="img/plant.jpg"><span>Корень мандрагоры</span></li>
+                    <li class="consist__item"><img src="img/plant.jpg"><span>Корень мандрагоры</span></li>
+                    <li class="consist__item"><img src="img/plant.jpg"><span>Корень мандрагоры</span></li>
+                </ul>
+                <div class="consist__image"><img src="img/prod.png"></div>
+                <ul class="consist__list">
+                    <li class="consist__item"><img src="img/plant.jpg"><span>Корень мандрагоры</span></li>
+                    <li class="consist__item"><img src="img/plant.jpg"><span>Корень мандрагоры</span></li>
+                    <li class="consist__item"><img src="img/plant.jpg"><span>Корень мандрагоры</span></li>
+                </ul>
+            </div>
+            <button class="btn_order scroll_order">Заказать</button>
+        </div>
+        <div class="reviews">
+            <div class="reviews__container">
+                <div class="slider">
+                    <div class="slider__wrapper">
+                        <div class="slider__track">
+                            <div class="slider__item">
+                                <div class="reviews__image"><img src="img/man.jpg"></div>
+                                <div class="reviews__name">Виктор Логинов</div>
+                                <div class="reviews__description">Отличный продукт. Одна капсула в день. Результатом
+                                    доволен</div>
+                            </div>
+                            <div class="slider__item">
+                                <div class="reviews__image"><img src="img/man2.jpg"></div>
+                                <div class="reviews__name">Виктор Логинов</div>
+                                <div class="reviews__description">Отличный продукт. Одна капсула в день. Результатом
+                                    доволен</div>
+                            </div>
+                            <div class="slider__item">
+                                <div class="reviews__image"><img src="img/man3.jpg"></div>
+                                <div class="reviews__name">Виктор Логинов</div>
+                                <div class="reviews__description">Отличный продукт. Одна капсула в день. Результатом
+                                    доволен</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider__btn_prev"></button>
+                    <button class="slider__btn_next"></button>
+                </div>
+            </div>
+        </div>
+        <div class="blurb">
+            <div class="blurb__container">
+                <div class="blurb__wrapper">
+                    <div class="blurb__content">
+                        <div class="blurb__image"><img class="blurb__img_doc" src="img/doctor.png"><img
+                                class="blurb__img_prod" src="img/prod.png"></div>
+                        <div class="blurb__description">
+                            <p>Помимо источника витамина С, шиповник является кладезью полезных натуральных
+                                биофлавоноидов. Биофлавоноиды — мощные антиоксиданты,
+                                которые содержатся в плодах, цветах и стеблях различных растений. Витамин С и
+                                биофлавоноиды дополнительно усиливают действие друг друга.</p>
+                        </div>
+                    </div>
+                    <ul class="blurb__feature_list">
+                        <li class="blurb__feature_item">Научно-обоснованное производство</li>
+                        <li class="blurb__feature_item">Ингредиенты из надежных источников</li>
+                        <li class="blurb__feature_item">Отказ от использования искусственных ингредиентов</li>
+                    </ul>
+                </div>
+                <button class="btn_order scroll_order">Заказать</button>
+            </div>
+        </div>
+        <div class="order">
+            <div class="order__container">
+                <h1 class="order__title">LevelUp</h1>
+                <div class="order__timer">
+                    <h3 class="order__timer__title">До конца акции осталось</h3>
+                    <div class="order__timer__wrapper">
+                        <span class="order__timer__badge minutes"></span>
+                        <span class="order__timer__separation">:</span>
+                        <span class="order__timer__badge seconds"></span>
+                    </div>
+                </div>
+                <div class="order__wrapper">
+                    <div class="order__content">
+                        <img class="order__image" src="img/prod.png">
+                        <div class="order__price_old">10000 руб.</div>
+                        <div class="order__price_new">5000 руб.</div>
+                    </div>
+                    <form class="order__form">
+                        <div class="order__form__wrapper">
+                            <div class="input_name__wrapper">
+                                <input placeholder="Имя" type="text" class="input_name">
+                                <div class="promt_name promt_hide">Например: Эдуард</div>
+                            </div>
+                            <div class="input_phone__wrapper">
+                                <input placeholder="Номер телефона" type="number" class="input_phone">
+                                <div class="promt_phone promt_hide">Например: 89000000000</div>
+                            </div>
+                        </div>
+                        <button class="btn_order">Заказать</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
